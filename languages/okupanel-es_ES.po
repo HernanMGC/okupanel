@@ -1,0 +1,1096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OkuPanel\n"
+"POT-Creation-Date: 2020-05-17 13:21+0200\n"
+"PO-Revision-Date: 2020-05-17 13:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: OkuLabs <okupanel@riseup.net>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;n;_n:1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: inc/lib\n"
+
+#: inc/acf.php:17
+msgid "Extended options - Okupanel"
+msgstr "Opciones extendidas - Okupanel"
+
+#: inc/acf.php:21
+msgid "Digital location"
+msgstr "Ubicación digital"
+
+#: inc/acf.php:32
+msgid ""
+"If this options is checked, all location fields will be ignored when shown "
+"on the Okupanel. Link for digital location will be shown instead."
+msgstr ""
+"Si se marca esta opción se ignorarán los campos rellenos a la hora de "
+"mostrar la información de la ubicación den el Okupanel. Se mostrará el "
+"enlace en su lugar."
+
+#: inc/acf.php:40
+msgid "Link for digital location"
+msgstr "Enlace de la ubicación digital"
+
+#: inc/acf.php:43
+msgid "Digital location for the event."
+msgstr "Es la dirección digital del evento."
+
+#: inc/cron.php:10
+msgid "Once every minute"
+msgstr "Una vez cada minuto"
+
+#: inc/helpers.php:31
+#, php-format
+msgid "%s hours"
+msgstr "%s horas"
+
+#: inc/helpers.php:31
+#, fuzzy, php-format
+msgid "%s hour"
+msgstr "%s hora"
+
+#: inc/helpers.php:31
+#, php-format
+msgid "%sH"
+msgstr "%sH"
+
+#: inc/helpers.php:33
+#, php-format
+msgid "%s minutes"
+msgstr "%s minutos"
+
+#: inc/helpers.php:40 inc/settings.php:811 inc/settings.php:1294
+#: inc/settings.php:1415
+msgid "and"
+msgstr "y"
+
+#: inc/helpers.php:173 mods/youtube_widget.php:306
+msgid "Loading"
+msgstr "Cargando"
+
+#: inc/interfaces/gcalendar.php:7
+msgid "Google Calendar (Evil, via API)"
+msgstr "Google Calendar (el Mal, via API)"
+
+#: inc/interfaces/gcalendar.php:12
+msgid "Google Calendar setup instructions"
+msgstr "Instrucciones para Google Calendar"
+
+#: inc/interfaces/gcalendar.php:15
+#, php-format
+msgid "Create a new project at %s"
+msgstr "Crear un nuevo proyecto en %s"
+
+#: inc/interfaces/gcalendar.php:15
+msgid "the Google Calendar API Console"
+msgstr "la consola de Google Calendar"
+
+#: inc/interfaces/gcalendar.php:20
+msgid "Click \"Enable API\""
+msgstr "Pincha \"Activar API\""
+
+#: inc/interfaces/gcalendar.php:25
+msgid "Click Oauth Client ID"
+msgstr "Pincha ID de Cliente Oauth"
+
+#: inc/interfaces/gcalendar.php:30
+msgid "Select \"Web\", add the following redirect URI and save"
+msgstr "Selecciona \"Web\", añade la URI de redirección siguiente y guarda"
+
+#: inc/interfaces/gcalendar.php:35
+msgid "Copy the App ID and App Secret below"
+msgstr "Copia el ID y el secreto de app aquí abajo"
+
+#: inc/interfaces/gcalendar.php:39
+msgid "Google Calendar App ID"
+msgstr "ID de app de Google Calendar"
+
+#: inc/interfaces/gcalendar.php:45
+msgid "Google Calendar App Secret"
+msgstr "Secreto de app de Google Calendar"
+
+#: inc/interfaces/gcalendar.php:52
+msgid "Google Calendar ID"
+msgstr "ID del Google Calendar"
+
+#: inc/interfaces/gcalendar.php:55
+msgid ""
+"This setting is commonly \"primary\" or the proper account email. Calendar "
+"IDs can be found in each calendar's settings page."
+msgstr ""
+"Este ajuste suele ser \"primary\" o el correo mismo de la cuenta. Los IDs de "
+"calendarios se pueden encontrar en la página de ajuste de cada calendario."
+
+#: inc/interfaces/gcalendar.php:59
+msgid "Save the settings"
+msgstr "Guardar los ajustes"
+
+#: inc/interfaces/gcalendar.php:63
+msgid "Authenticate your account with Google Calendar clicking here"
+msgstr "Autentifica tu cuenta con Google Calendar pinchando aquí"
+
+#: inc/interfaces/gcalendar.php:65
+msgid "Google Calendar is synchronized!"
+msgstr "¡Google Calendar esta sincronizado!"
+
+#: inc/interfaces/gcalendar.php:67
+msgid "Google Calendar is not synchronized (yet)"
+msgstr "Google Calendar no esta sincronizado (todavía)"
+
+#: inc/interfaces/ics.php:9
+msgid "iCalendar (Recommended, via .ics)"
+msgstr "iCalendar (Recomendado, via .ics)"
+
+#: inc/interfaces/ics.php:14
+msgid "iCalendar setup instructions"
+msgstr "Instrucciones para iCalendar"
+
+#: inc/interfaces/ics.php:19
+msgid "iCalendar URLs"
+msgstr "URLs de iCalendar"
+
+#: inc/interfaces/ics.php:22
+msgid ""
+"iCalendar URLs end up in \".ics\". All URLs in this field will be fetched "
+"and merged. Other content will be ignored (use it as comments!), except "
+"strings like \" ROOM=Any Room\" following URLs (which will force a location "
+"for all the feed's events) and strings like \" OFFSET=1.5\" following URLs "
+"(which will add an offset to all the feed's events, in hours)."
+msgstr ""
+"Las URLs de iCalendar acaban en \".ics\". Todas la URLs en este campo serán "
+"recogidas y agrupadas. El resto del contenido se descartará (se considerán "
+"como comentarios para usuario), excepto aquellas cadenas como \" ROOM=Any "
+"Room\" colocadas inmediatamente a continuación de las URLs (que forzarán una "
+"ubicación concreta para todos los eventos de ese feed de calendario) y las "
+"cadenas \" OFFSET=1.5\" colocadas inmediatamente a continuación de las URLs "
+"(que añadirán un offset o desplazamiento en horas a todos los eventos de ese "
+"feed de calendario)."
+
+#: inc/settings.php:12
+msgid "OkuPanel Settings"
+msgstr "Ajustes de OkuPanel"
+
+#: inc/settings.php:109
+msgid "OkuPanel settings"
+msgstr "Ajustes de OkuPanel"
+
+#: inc/settings.php:135
+msgid "Select your calendar type"
+msgstr "Selecciona tu tipo de calendario"
+
+#: inc/settings.php:138
+msgid "Select a calendar type"
+msgstr "Selecciona un tipo de calendario"
+
+#: inc/settings.php:158
+#, php-format
+msgid "Your panel is displayed at %s"
+msgstr "Tu panel se puede visualizar desde %s"
+
+#: inc/settings.php:159
+#, php-format
+msgid ""
+"To use it as an entrance screen (a kiosk), open %s and turn the window "
+"fullscreen (commonly F11) or follow the kiosk installation instructions from "
+"%s."
+msgstr ""
+"Para usarlo como pantalla de entrada (kiosko), abre %s y activa el modo "
+"pantalla plena (comúnmente F11) o sigue las instrucciones de instalación de "
+"kiosko en %s."
+
+#: inc/settings.php:159
+msgid "the plugin's page"
+msgstr "la página de plugin"
+
+#: inc/settings.php:160
+#, php-format
+msgid "iCal link to be used in calendar clients: %s"
+msgstr ""
+
+#: inc/settings.php:165
+msgid "Theming settings"
+msgstr "Ajustes visuales"
+
+#: inc/settings.php:168
+msgid "Panel's title"
+msgstr "Título del panel"
+
+#: inc/settings.php:175
+msgid "Right side's HTML"
+msgstr "HTML de la barra de la derecha"
+
+#: inc/settings.php:178
+msgid ""
+"Available shortcodes are <code>[okupanel_line label=\"Web\" url=\"https://"
+"example.com\" link_label=\"Some label\"]</code>, <code>[okupanel_separator]</"
+"code> and <code>[okupanel_most_important]</code>."
+msgstr ""
+"Los shortcodes disponibles son <code>[okupanel_line label=\"Web\" url="
+"\"https://example.com\" link_label=\"Alguna etiqueta\"]</code>, "
+"<code>[okupanel_separator]</code> y <code>[okupanel_most_important]</code>."
+
+#: inc/settings.php:185
+msgid "Bottom bar content"
+msgstr "Contenido de la barra de abajo"
+
+#: inc/settings.php:188
+msgid ""
+"Each (non-empty) line will be considered as one sentence in the bottom bar."
+msgstr ""
+"Cada linea no vacía será considerada como una frase en la barra de abajo."
+
+#: inc/settings.php:193
+msgid "Links menu label (for mobiles)"
+msgstr "Etiqueta del menu de enlaces (para móbiles)"
+
+#: inc/settings.php:195 templates/panel.php:91
+msgid "Links"
+msgstr "Enlaces"
+
+#: inc/settings.php:200
+msgid "Default location"
+msgstr "Dirección por defecto"
+
+#: inc/settings.php:207
+msgid "Location URL"
+msgstr "URL de la ubicación"
+
+#: inc/settings.php:216
+msgid "Extra CSS"
+msgstr "CSS Extra"
+
+#: inc/settings.php:223
+msgid "Extra Javascript"
+msgstr "Javascript Extra"
+
+#: inc/settings.php:232
+msgid "Event location cleanup"
+msgstr ""
+
+#: inc/settings.php:235
+msgid ""
+"One line per regexp conversion, starting with a regular expression delimited "
+"with #'s, and then the replacement pattern between double quotes."
+msgstr ""
+
+#: inc/settings.php:240
+msgid "Autodetected events"
+msgstr "Eventos autodetectados"
+
+#: inc/settings.php:243
+msgid ""
+"One line per event detection, starting with a regular expression delimited "
+"with #'s, and then the title to use (if not using the event's own title). "
+"Use [okupanel_most_important] to show detected events in the sidebar."
+msgstr ""
+"Una linea por detección de evento, empezando por una expresión regular "
+"delimitada por unos #, y luego el título que usar (si no se quiere usar el "
+"título propio del evento). Utiliza [okupanel_most_important] para enseñar "
+"los eventos detectados en la barra lateral."
+
+#: inc/settings.php:251
+msgid "Enable mods"
+msgstr "Activar mods"
+
+#: inc/settings.php:268
+msgid ""
+"Mods are files dropped in the okupanel/mods folder, containing filters "
+"(output modifications) for specific events. See okupanel/mods/"
+"hackmeeting2017.php for an example (or enable it and add an event like "
+"\"[1.99] title\")."
+msgstr ""
+"Los mods son ficheros almacenados en el directorio okupanel/mods que "
+"contienen filtros (modificaciones en las salidas) para eventos específicos. "
+"Ver como ejemplo okupanel/mods/hackmeeting2017.php (o habilitarlo y añadir "
+"un evento como con título como \"[1.99] title\")."
+
+#: inc/settings.php:273
+msgid "Include styles in pages with ID"
+msgstr "Incluir estilos en la páginas con ID"
+
+#: inc/settings.php:276
+msgid ""
+"Comma-separated page IDs to queue OkuPanel styles for. Useful when "
+"displaying events on a wordpress page with the <code>[okupanel]</code> "
+"shortcode."
+msgstr ""
+"IDs de páginas separados por comas, para los cuales incluir los estilos de "
+"OkuPanel. Útil cuando se enseñen los eventos en una página de wordpress, con "
+"el shortcode <code>[okupanel]</code>."
+
+#: inc/settings.php:284
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: inc/settings.php:374
+msgid "Today"
+msgstr "Hoy"
+
+#: inc/settings.php:374 inc/settings.php:381 inc/settings.php:389
+#: inc/settings.php:981
+msgid "l m/d"
+msgstr "l d/m"
+
+#: inc/settings.php:381
+msgid "Tomorrow"
+msgstr "Mañana"
+
+#: inc/settings.php:470
+msgid "Starting"
+msgstr "Empezando"
+
+#: inc/settings.php:475
+msgid "New"
+msgstr "Nuevo"
+
+#: inc/settings.php:477
+msgid "Modified"
+msgstr "Modificado"
+
+#: inc/settings.php:513
+msgid "D m/d"
+msgstr "D d/m"
+
+#: inc/settings.php:526
+msgid "Beginning"
+msgstr "Comienzo"
+
+#: inc/settings.php:528
+#, php-format
+msgid "%s at %s"
+msgstr "%s a las %s"
+
+#: inc/settings.php:528 inc/settings.php:542
+msgid "l F jS, Y"
+msgstr "l j \\d\\e F \\d\\e Y"
+
+#: inc/settings.php:532 inc/settings.php:721
+msgid "Duration"
+msgstr "Duración"
+
+#: inc/settings.php:540
+#, php-format
+msgctxt "until a time"
+msgid "until %s"
+msgstr "hasta las %s"
+
+#: inc/settings.php:542
+#, php-format
+msgctxt "until a date and time"
+msgid "until %s at %s"
+msgstr "hasta el %s a las %s"
+
+#: inc/settings.php:549 inc/settings.php:725
+msgid "Location"
+msgstr "Lugar"
+
+#: inc/settings.php:580
+msgid "Ground floor"
+msgstr "Planta baja"
+
+#: inc/settings.php:583
+msgid "Room"
+msgstr "Sala"
+
+#: inc/settings.php:585
+msgid "Floor"
+msgstr "Planta"
+
+#: inc/settings.php:604
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: inc/settings.php:605
+msgid "Single event"
+msgstr "Evento único"
+
+#: inc/settings.php:716 inc/settings.php:742
+msgid "Horary"
+msgstr "Horario"
+
+#: inc/settings.php:717
+msgid "Activity"
+msgstr "Actividad"
+
+#: inc/settings.php:745
+msgid "Floor.Room"
+msgstr "Planta.Sala"
+
+#: inc/settings.php:849 inc/settings.php:1650
+msgid "Kafeta"
+msgstr ""
+
+#: inc/settings.php:901 mods/timeline.php:88
+msgid "Monday"
+msgstr "lunes"
+
+#: inc/settings.php:902 mods/timeline.php:88
+msgid "Tuesday"
+msgstr "martes"
+
+#: inc/settings.php:903 mods/timeline.php:88
+msgid "Wednesday"
+msgstr "miércoles"
+
+#: inc/settings.php:904 mods/timeline.php:88
+msgid "Thursday"
+msgstr "jueves"
+
+#: inc/settings.php:905 mods/timeline.php:88
+msgid "Friday"
+msgstr "viernes"
+
+#: inc/settings.php:906 mods/timeline.php:88
+msgid "Saturday"
+msgstr "sábados"
+
+#: inc/settings.php:907 mods/timeline.php:88
+msgid "Sunday"
+msgstr "domingos"
+
+#: inc/settings.php:910
+msgid "one"
+msgstr "uno"
+
+#: inc/settings.php:911
+msgid "two"
+msgstr "dos"
+
+#: inc/settings.php:912
+msgid "three"
+msgstr "tres"
+
+#: inc/settings.php:913
+msgid "four"
+msgstr "cuatro"
+
+#: inc/settings.php:914
+msgid "five"
+msgstr "cinco"
+
+#: inc/settings.php:915
+msgid "six"
+msgstr "seis"
+
+#: inc/settings.php:916
+msgid "seven"
+msgstr "siete"
+
+#: inc/settings.php:917
+msgid "eight"
+msgstr "ocho"
+
+#: inc/settings.php:918
+msgid "nine"
+msgstr "nueve"
+
+#: inc/settings.php:958
+#, php-format
+msgid "Every %s"
+msgstr "Todos los %s"
+
+#: inc/settings.php:960
+#, php-format
+msgid "Every %s weeks"
+msgstr "Cada %s semanas"
+
+#: inc/settings.php:962
+#, php-format
+msgid "Every %s weeks on %s"
+msgstr "Cada %s semanas los %s"
+
+#: inc/settings.php:967
+msgid "Every month"
+msgstr "Cada mes"
+
+#: inc/settings.php:969
+#, php-format
+msgid "Every %s months"
+msgstr "Cada %s meses"
+
+#: inc/settings.php:973
+msgid "Every day"
+msgstr "Todos los días"
+
+#: inc/settings.php:973
+#, php-format
+msgid "Every %s days"
+msgstr "Cada %s días"
+
+#: inc/settings.php:979
+msgid "last date"
+msgstr "última fecha"
+
+#: inc/settings.php:981
+#, php-format
+msgctxt "until a date"
+msgid "until %s"
+msgstr "hasta el %s"
+
+#: inc/settings.php:1030
+#, php-format
+msgid "updated every %s min"
+msgstr "actualizado cada %s min"
+
+#: inc/settings.php:1293 inc/settings.php:1414
+msgid "room"
+msgstr "sala"
+
+#: inc/settings.php:1325 inc/settings.php:1328 inc/settings.php:1443
+#: inc/settings.php:1446
+msgid "Yard"
+msgstr "Patio"
+
+#: inc/settings.php:1609
+#, php-format
+msgctxt "until a time"
+msgid "Until %s"
+msgstr "Hasta las %s"
+
+#: inc/settings.php:1613 mods/kafeta_pad.php:377 mods/kafeta_pad.php:519
+msgid "today"
+msgstr "hoy"
+
+#: inc/settings.php:1615 mods/kafeta_pad.php:382 mods/kafeta_pad.php:525
+msgid "tomorrow"
+msgstr "mañana"
+
+#: inc/settings.php:1622 mods/kafeta_pad.php:388 mods/nextactivities.php:75
+msgid "l"
+msgstr "l"
+
+#: inc/settings.php:1628
+#, php-format
+msgid "at %s"
+msgstr "a las %s"
+
+#: inc/settings.php:1652
+#, php-format
+msgid "room %s"
+msgstr "sala %s"
+
+#: inc/settings.php:1750
+msgid "party"
+msgstr "fiesta"
+
+#: inc/settings.php:1750
+msgid "sound system"
+msgstr "sound system"
+
+#: inc/settings.php:1750
+msgid "concert"
+msgstr "concierto"
+
+#: mods/accessibility_icons.php:14
+msgid "Accesibilidad"
+msgstr ""
+
+#: mods/accessibility_icons.php:15
+msgid "Acceso habilitado para personas con movilidad reducida"
+msgstr ""
+
+#: mods/accessibility_icons.php:25
+msgid "Acceso habilitado para personas con movilidad reducida."
+msgstr ""
+
+#: mods/accessibility_icons.php:58
+msgid "Accessible floors"
+msgstr "Plantas accesibles"
+
+#: mods/accessibility_icons.php:62
+msgid "Please load some events first"
+msgstr ""
+
+#: mods/accessibility_icons.php:75
+#, php-format
+msgid "Floor \"%s\""
+msgstr "Planta \"%s\""
+
+#: mods/available_room_search_form.php:21
+msgid "Available rooms"
+msgstr ""
+
+#: mods/available_room_search_form.php:24
+msgid ""
+"Comma-separated, well formatted rooms that will be added to rooms "
+"autodetected from future events."
+msgstr ""
+
+#: mods/available_room_search_form.php:28
+msgid "Rooms to avoid listing in availability page"
+msgstr ""
+
+#: mods/available_room_search_form.php:31
+msgid ""
+"Comma-separated, well formatted rooms that will be striped out from "
+"available rooms."
+msgstr ""
+
+#: mods/federated_messages.php:99
+msgid "(Federated) message:"
+msgstr "Mensaje (federado):"
+
+#: mods/federated_messages.php:102
+#, php-format
+msgid "Up to %d characters"
+msgstr "Hasta %d carácteres"
+
+#: mods/federated_messages.php:108
+msgid "LOCAL MODE"
+msgstr "MODO LOCAL"
+
+#: mods/federated_messages.php:108
+msgid "display the status locally only."
+msgstr "enseña el estado solo localmente."
+
+#: mods/federated_messages.php:109
+msgid "INTER-OKUPANEL MODE"
+msgstr "MODO INTER-OKUPANEL"
+
+#: mods/federated_messages.php:109
+msgid "display the status both locally and on federated okupanels."
+msgstr "enseña el estado ambos localmente y en okupanels federados."
+
+#: mods/federated_messages.php:110
+msgid "ALERT MODE"
+msgstr "MODO DE ALERTA"
+
+#: mods/federated_messages.php:110
+msgid ""
+"display the status in red, higher in the sidebar, and both locally and on "
+"federated okupanels - <b>Use only on very urgent needs!</b>"
+msgstr ""
+"enseña el estado en rojo, más alto en la barra lateral, y ambos localmente y "
+"en okupanels federados - <b>¡Utilizar solo en caso de necesidad muy urgente!"
+"</b>"
+
+#: mods/federated_messages.php:112
+msgid "Remember to keep the current URL secret!"
+msgstr "¡Recuerda mantener la URL actual secreta!"
+
+#: mods/federated_messages.php:112
+#, php-format
+msgid ""
+"Bookmark <a %s>this secret URL</a> into your laptop and phone to update the "
+"3 previous fields without logging"
+msgstr ""
+"Haz un marcador de <a %s>esta URL secreta</a> en tu laptop y teléfono para "
+"actualizar los 3 campos anteriores sin loguearte"
+
+#: mods/federated_messages.php:118
+msgid ""
+"You must use [okupanel_federated_message_urgent] and "
+"[okupanel_federated_message_regular] in your okupanel's sidebar, repectively "
+"for urgent and regular message (both yours and other okupanels' messages)."
+msgstr ""
+"Debes usar [okupanel_federated_message_urgent] y "
+"[okupanel_federated_message_regular] en la barra lateral de tu okupanel, "
+"respectivamente para mensajes urgentes y regulares (ambos mensajes tuyos y "
+"de los demás okupanels federados)"
+
+#: mods/federated_messages.php:150
+msgid "Fields saved!"
+msgstr "Campos guardados"
+
+#: mods/federated_messages.php:179
+#, php-format
+msgid "Status of %s"
+msgstr "Estado de %s"
+
+#: mods/federated_messages.php:182
+msgid "Update"
+msgstr "Actualizar"
+
+#: mods/federation.php:88
+msgid "Federated nodes"
+msgstr "Nodos federados"
+
+#: mods/federation.php:94
+msgid "Federated short name"
+msgstr "Nombre federado corto"
+
+#: mods/federation.php:97
+msgid "(20 characters max, for the federated widget in the sidebar)"
+msgstr "(20 carácteres máximo, para el widget federado en la barra lateral)"
+
+#: mods/federation.php:101
+msgid "Federated very short name"
+msgstr "Nombre federado muy corto"
+
+#: mods/federation.php:104
+msgid "(7 characters max, for inside the events table)"
+msgstr "(7 carácteres máximo, para la tabla de eventos)"
+
+#: mods/federation.php:108
+msgid "PUBLIC Email"
+msgstr "Email PÚBLICO"
+
+#: mods/federation.php:384 mods/federation.php:389
+msgid "Centro"
+msgstr ""
+
+#: mods/federation.php:463 mods/federation.php:500
+msgid "See website"
+msgstr "Ver sitio web"
+
+#: mods/federation.php:646
+msgid "Virtual nodes"
+msgstr "Nodos virtuales"
+
+#: mods/federation.php:726
+msgid ""
+"Virtual nodes are nodes without own okupanel installation. That is, only an "
+"iCalendar URL. These virtual nodes can be linked appending NODE=XXX to a URL "
+"of the previous field, XXX being the short name in this table."
+msgstr ""
+
+#: mods/federation.php:730
+msgid "Do not consider this WP a node"
+msgstr "No considerar este WP un nodo"
+
+#: mods/federation.php:736
+msgid "Always show rooms on main view"
+msgstr ""
+
+#: mods/flash_message.php:12
+msgid "Flash message"
+msgstr ""
+
+#: mods/flash_message.php:18
+msgid "Flash message trigger time"
+msgstr ""
+
+#: mods/hashtags.php:34
+msgid "Hashtags"
+msgstr ""
+
+#: mods/kafeta_pad.php:20
+msgid "Pad kafeta URL"
+msgstr ""
+
+#: mods/kafeta_pad.php:26
+msgid "Kafeta's openng days"
+msgstr ""
+
+#: mods/kafeta_pad.php:42
+msgid "Kafeta opens at"
+msgstr ""
+
+#: mods/kafeta_pad.php:49
+msgid "Kafeta closes at"
+msgstr ""
+
+#: mods/kafeta_pad.php:56
+msgid "Alert missing kafeta turn (regular call)"
+msgstr ""
+
+#: mods/kafeta_pad.php:62
+msgid "Alert missing kafeta turn as urgent/red"
+msgstr ""
+
+#: mods/kafeta_pad.php:68
+msgid "Number of missing kafeta turn alerts"
+msgstr ""
+
+#: mods/kafeta_pad.php:374
+msgid "now"
+msgstr "ahora"
+
+#: mods/kafeta_pad.php:388
+#, fuzzy, php-format
+#| msgid "until %s"
+msgid "el %s"
+msgstr "hasta el %s"
+
+#: mods/kafeta_pad.php:531
+#, php-format
+msgid "this %s"
+msgstr "este %s"
+
+#: mods/nextactivities.php:14
+msgid "Next permanent events' widget title"
+msgstr ""
+
+#: mods/nextactivities.php:20
+msgid "Next permanent events' widget limit"
+msgstr ""
+
+#: mods/projects.php:16
+msgid "Projects' Pad URL"
+msgstr ""
+
+#: mods/share_the_love.php:10
+msgid "love"
+msgstr "amor"
+
+#: mods/social_networks.php:35
+#, php-format
+msgid "%s URL"
+msgstr ""
+
+#: mods/timeline-includes/d3.min.js:3
+msgid "zoomstart"
+msgstr ""
+
+#: mods/timeline-includes/d3.min.js:3
+msgid "zoom"
+msgstr ""
+
+#: mods/timeline-includes/d3.min.js:3
+msgid "zoomend"
+msgstr ""
+
+#: mods/timeline-includes/d3.min.js:4
+msgid "x"
+msgstr ""
+
+#: mods/timeline-includes/d3.min.js:4
+msgid "y"
+msgstr "and"
+
+#: mods/timeline-includes/d3.min.js:5
+msgid "brushstart"
+msgstr ""
+
+#: mods/timeline-includes/d3.min.js:5
+msgid "brush"
+msgstr ""
+
+#: mods/timeline-includes/d3.min.js:5
+msgid "brushend"
+msgstr ""
+
+#: mods/timeline.php:50
+msgid "Undefined location"
+msgstr "Ubicación indefinida"
+
+#: mods/timeline.php:89
+msgid "Sun"
+msgstr "Dom"
+
+#: mods/timeline.php:89
+msgid "Mon"
+msgstr "Lun"
+
+#: mods/timeline.php:89
+msgid "Tue"
+msgstr "Mar"
+
+#: mods/timeline.php:89
+msgid "Wed"
+msgstr "Mie"
+
+#: mods/timeline.php:89
+msgid "Thu"
+msgstr "Jue"
+
+#: mods/timeline.php:89
+msgid "Fri"
+msgstr "Vie"
+
+#: mods/timeline.php:89
+msgid "Sat"
+msgstr "Sab"
+
+#: mods/timeline.php:90
+msgid "January"
+msgstr "Enero"
+
+#: mods/timeline.php:90
+msgid "February"
+msgstr "Febrero"
+
+#: mods/timeline.php:90
+msgid "March"
+msgstr "Marzo"
+
+#: mods/timeline.php:90
+msgid "April"
+msgstr "Abril"
+
+#: mods/timeline.php:90 mods/timeline.php:91
+msgid "May"
+msgstr "Mayo"
+
+#: mods/timeline.php:90
+msgid "June"
+msgstr "Junio"
+
+#: mods/timeline.php:90
+msgid "July"
+msgstr "Julio"
+
+#: mods/timeline.php:90
+msgid "August"
+msgstr "Agosto"
+
+#: mods/timeline.php:90
+msgid "September"
+msgstr "Septiembre"
+
+#: mods/timeline.php:90
+msgid "October"
+msgstr "Octubre"
+
+#: mods/timeline.php:90
+msgid "November"
+msgstr "Noviembre"
+
+#: mods/timeline.php:90
+msgid "Dicember"
+msgstr "Diciembre"
+
+#: mods/timeline.php:91
+msgid "Jan"
+msgstr "Ene"
+
+#: mods/timeline.php:91
+msgid "Feb"
+msgstr "Feb"
+
+#: mods/timeline.php:91
+msgid "Mar"
+msgstr "Mar"
+
+#: mods/timeline.php:91
+msgid "Apr"
+msgstr "Abr"
+
+#: mods/timeline.php:91
+msgid "Jun"
+msgstr "Jun"
+
+#: mods/timeline.php:91
+msgid "Jul"
+msgstr "Jul"
+
+#: mods/timeline.php:91
+msgid "Aug"
+msgstr "Ago"
+
+#: mods/timeline.php:91
+msgid "Sep"
+msgstr "Sep"
+
+#: mods/timeline.php:91
+msgid "Oct"
+msgstr "Oct"
+
+#: mods/timeline.php:91
+msgid "Nov"
+msgstr "Nov"
+
+#: mods/timeline.php:91
+msgid "Dic"
+msgstr "Dic"
+
+#: mods/youtube_widget.php:318
+msgid "YouTube videos"
+msgstr "Videos de YouTube"
+
+#: mods/youtube_widget.php:324
+msgid "Wait before playing the listing"
+msgstr "Esperar antes de reproducir la playlist"
+
+#: mods/youtube_widget.php:330
+msgid "Wait between videos"
+msgstr "Esperar entre videos"
+
+#: mods/youtube_widget.php:336
+msgid "Repeat playlist every"
+msgstr "Repetir playlist cada"
+
+#: mods/youtube_widget.php:342
+msgid "Mute videos"
+msgstr "Silenciar videos"
+
+#~ msgid "Up to 70 characters"
+#~ msgstr "Hasta "
+
+#~ msgid ""
+#~ "Comma-separated mod files to enable (without extensions). Mods are files "
+#~ "dropped in the okupanel/mods folder, containing filters (output "
+#~ "modifications) for specific events. See okupanel/mods/hackmeeting2017.php "
+#~ "for an example (or enable it with \"hackmeeting2017\" and add an event "
+#~ "like \"[1.99] title\")."
+#~ msgstr ""
+#~ "Ficheros de mods que activar, separados por comas y sin extensiones. Los "
+#~ "mods son ficheros situados en la carpeta okupanel/mods, y que contienen "
+#~ "filtros (output modifications) para eventos específicos. Vease okupanel/"
+#~ "mods/hackmeeting2017.php como ejemplo (o actívalo poniendo "
+#~ "\"hackmeeting2017\" y añadiendo un evento como \"[1.99] título\")."
+
+#~ msgid "until %s at %s"
+#~ msgstr "hasta el %s a las %s"
+
+#~ msgid "Until %s"
+#~ msgstr "Hasta las %s"
+
+#~ msgid "l m/d/Y"
+#~ msgstr "l d/m/Y"
+
+#~ msgid ""
+#~ "iCalendar URLs end up in \".ics\". All URLs in this field will be fetched "
+#~ "and merged. Other content will be ignored (use it as comments ;))."
+#~ msgstr ""
+#~ "Las URLs de iCalendars suele terminar en \".ics\". Todas las URLs en este "
+#~ "campo serán recogidas y fusionadas. El demás contenido será ignorado (se "
+#~ "puede usar como comentarios ;))."
+
+#~ msgid "fiesta"
+#~ msgstr "fiesta"
+
+#~ msgid "End"
+#~ msgstr "Fín"
+
+#~ msgid ""
+#~ "Mods are files dropped in the okupanel/mods folder, containing filters "
+#~ "(output modifications) for specific events. See okupanel/mods/"
+#~ "hackmeeting2017.php for an example (or enable it with \"hackmeeting2017\" "
+#~ "and add an event like \"[1.99] title\")."
+#~ msgstr ""
+#~ "Los mods son ficheros situados en la carpeta okupanel/mods, y que "
+#~ "contienen filtros (output modifications) para eventos específicos. Vease "
+#~ "okupanel/mods/hackmeeting2017.php como ejemplo (o actívalo poniendo "
+#~ "\"hackmeeting2017\" y añadiendo un evento como \"[1.99] título\")."
+
+#~ msgid " y "
+#~ msgstr " and "
+
+#~ msgid "Until %s at %s"
+#~ msgstr "Hasta el %s a las %s"
+
+#~ msgid ""
+#~ "To use it as an entrance screen, open %s and turn the window fullscreen "
+#~ "(commonly F11)."
+#~ msgstr ""
+#~ "Para usarlo como panel de entrada, abre %s y activa el modo pantalla "
+#~ "plena (comúnmente F11)."
+
+#~ msgid "Comma-separated page IDs to queue styles for"
+#~ msgstr "IDs de páginas separados por comas, para los cuales incluir estilos"
+
+#~ msgid "From"
+#~ msgstr "Desde"
+
+#~ msgid "Until"
+#~ msgstr "Hasta"
+
+#~ msgid "Place"
+#~ msgstr "Lugar"
+
+#~ msgid "General Assembly"
+#~ msgstr "Asamblea General"
+
+#~ msgid "concierto"
+#~ msgstr "concert"
+
+#~ msgid "Patio"
+#~ msgstr "Patio"
